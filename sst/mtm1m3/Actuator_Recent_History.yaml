@@ -6,7 +6,13 @@ authors:
 tags:
   - demo
 parameters:
+  day_obs:
+    type: string
+    description: Observation day in format YYYYMMDD
+    default: "20260701"
   days_to_plot:
     type: integer
-    description: Number of days to look back
-    default: 30
+    description: Number of days to look forward (max = 5)
+    default: 5
+    minimum: 0
+    maximum: 5
