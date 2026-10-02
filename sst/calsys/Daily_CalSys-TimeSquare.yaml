@@ -7,5 +7,5 @@ tags:
 parameters:
   day_obs:
     type: number
-    description: Observation day.
-    default: 20250410
+    description: Observation day. Use 0 to default to today (UTC).
+    default: 0
