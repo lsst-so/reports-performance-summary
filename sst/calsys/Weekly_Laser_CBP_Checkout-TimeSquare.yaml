@@ -8,4 +8,4 @@ parameters:
   day_obs:
     type: number
     description: Observation day.
-    default: 20260528
+    default: 20261006
